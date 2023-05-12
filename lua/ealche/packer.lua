@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
 		branch = 'v1.x',
   		requires = {
     			-- LSP Support
-			{'neovim/nvim-lspconfig'},             -- Required
+                {'neovim/nvim-lspconfig'},             -- Required
     			{'williamboman/mason.nvim'},           -- Optional
     			{'williamboman/mason-lspconfig.nvim'}, -- Optional
 
@@ -54,7 +54,9 @@ return require('packer').startup(function(use)
     			-- Snippets
     			{'L3MON4D3/LuaSnip'},             -- Required
     			{'rafamadriz/friendly-snippets'}, -- Optional
-  	}
-}
+        }
+    }
+    use('jose-elias-alvarez/null-ls.nvim')
+    use('MunifTanjim/prettier.nvim')
 end)	
 
