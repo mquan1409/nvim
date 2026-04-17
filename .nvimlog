@@ -1,0 +1,2 @@
+WRN 2026-04-16T21:54:52.232 ?.37608    server_start:199: Failed to start server: operation not permitted: /var/folders/4t/hz3c_fq50zzcll5h1ycwz1ww0000gn/T/nvim.ealche/0mCA0W/nvim.37608.0
+WRN 2026-04-16T21:54:52.232 ?.37607    server_start:199: Failed to start server: operation not permitted: /var/folders/4t/hz3c_fq50zzcll5h1ycwz1ww0000gn/T/nvim.ealche/cshvr8/nvim.37607.0
